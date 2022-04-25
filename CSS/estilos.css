@@ -1,0 +1,1971 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ------------------- GENERAL ------------------ */
+
+/* body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.header1{
+    width: 100%;
+    height: 30px;
+    background-color: #24368c;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header1 p{
+    color: white;
+    font-size: 0.9rem;
+    margin-right: 100px;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav div{
+    width: 20%;
+    height: 100%;
+}
+
+nav div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(4, 17, 30);
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #b6234b;
+}
+
+.active{
+    color: #24368c;
+}
+
+.titlePage{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+}
+
+.titlePage h2{
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+.margenIzquierdo{
+    margin-left: 20px;
+}
+
+.navContacto{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(4, 17, 30);
+    color: aliceblue;
+    padding: 3rem 3rem 3rem 3rem;
+    font-size: 20px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+} */
+
+/* ------------------ INDEX ------------------- */
+
+/* .sectionOne{
+    width: 100%;
+    height: 100vh;
+}
+
+.sectionOne img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    object-fit: cover;
+    display: block;
+}
+
+.sectionOne div a{
+    position: absolute;
+    background-color:#24368c;
+    padding: 1.5rem;
+    top: 20%;
+    left: 45%;
+    color: aliceblue;
+}
+
+.sectionTwo{
+    width: 100%;
+    height: 30vh;
+}
+
+.sectionThree{
+    width: 100%;
+    height: 100vh;
+}
+
+#contactateYa{
+    display: block;
+    float: right;
+    margin-right: 80px;
+    padding: 10px 10px 10px 10px;
+    background-color: aliceblue;
+    text-align: center center;
+}
+
+
+#cotizaAqui{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 45%;
+    background-color: aliceblue;
+    padding: 10px 10px 10px 10px;
+}
+
+#imgPortadaHome{
+    width: 100%;
+    max-width: 100%;
+    max-height: 800px;
+    background-size: cover;
+}
+
+#mapaContacto{
+    position: static;
+    width: 100%;
+}
+
+.flexCenterComentarios{
+    display: block;
+    justify-content: center;
+    font-size: 15px;
+    font-style: italic;   
+}
+
+#fondoComentarios{
+    width: 100%;
+    height: 200px;
+    background-image: url(./Multimedia/family2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+#sizeLogosAseguradoras{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.footer{
+    background-color: #b6234b;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+}
+
+#menuFooter{
+    background-color: #b6234b;
+    padding-right: 80px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menuFooter ul{
+    list-style: square;
+    margin: 0;
+    padding: 0;
+}
+
+#menuFooter ul li{
+    display: block
+}
+
+#menuFooter ul li a{
+    color: white;
+    display: block;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#menuFooter ul li a:hover{
+    color: #000000;
+} */
+
+.grid-containerSiniestros {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.2fr 0.5fr 0.3fr 4.6fr 0.1fr 1.6fr 0.5fr 0.8fr 1.4fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "grid-barracontacto grid-barracontacto grid-barracontacto"
+      "grid-navbar grid-navbar grid-navbar"
+      "grid-seccion grid-seccion grid-seccion"
+      "grid-formularioSiniestro grid-formularioSiniestro grid-formularioSiniestro"
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      "grid-footer grid-footer grid-footer"; 
+  }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    .grid-container {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 0.5fr 0.2fr 2.9fr 0.5fr 3fr 0.5fr 0.2fr 0.6fr 1.4fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "grid-barracontacto grid-barracontacto grid-barracontacto"
+          "grid-navbar grid-navbar grid-navbar"
+          "grid-seccion grid-seccion grid-seccion"
+          "grid-imgbox grid-imgbox grid-imgbox"
+          "grid-coberturasbar grid-coberturasbar grid-coberturasbar"
+          "grid-misionvisionvalores grid-misionvisionvalores grid-misionvisionvalores"
+          "grid-experiencias grid-experiencias grid-experiencias"
+          "grid-aseguradoras grid-aseguradoras grid-aseguradoras"
+          "grid-aseguradorasimg grid-aseguradorasimg grid-aseguradorasimg"
+          "grid-footer grid-footer grid-footer";
+      }
+
+/* ---------------------------NAVBAR---------------------------- */
+      .grid-barracontacto {  
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+        "."; 
+        grid-area: grid-barracontacto;
+        color: white;
+        background-color: #24368c;
+        justify-items: center;
+        align-items: center;
+        }
+    
+      .grid-barracontacto p{
+        margin-right: 0;
+        }
+      
+      .grid-navbar {  
+        display: grid;
+        grid-template-columns: 0.7fr 1.3fr;
+        grid-template-rows: 1fr;
+        gap: 0px 1%;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "logoFM navbarFM";
+        grid-area: grid-navbar;
+        margin-left: 1%;
+        margin-right: 1%;
+      }
+      
+      .logoFM {
+        display: flex;
+        grid-area: logoFM;
+        background-image: url(../Multimedia/Logo-horizontL-PNG.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+        }
+    
+        /* .logoFM a{
+            object-fit: cover;
+            place-items: center;
+        } */
+      
+      .grid-navbar .navbarFM {
+        display: grid;
+        grid-area: navbarFM;
+        align-items: center;
+        justify-items: right;
+        justify-content: right;
+        
+        }
+    
+        .navbarFM ul{
+            list-style: none;
+            display: flex;
+            /* width: 40%;
+            height: 100%; */
+            justify-content: end;
+            /* align-items: flex-end; */
+            /* margin-right: 10%; */
+            padding: 1%;
+            margin: 1%;
+        }
+    
+        .navbarFM ul li{
+            padding-right: 2%;
+        }
+        
+        .navbarFM ul li a{
+            text-decoration: none;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: rgb(4, 17, 30);
+            display: block;
+            text-decoration: none;
+        }
+        
+        .navbarFM ul li a:hover{
+            color: #b6234b;
+        }
+        
+        .active{
+            color: #24368c;
+        }
+    
+    /* -------------------------- INDEX ----------------------------- */
+        .grid-imgbox {
+            display: flex;
+            height: auto; 
+            grid-area: grid-imgbox;
+            background-image: url(../Multimedia/Andrea\ manejando.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .grid-imgbox a{
+            position: absolute;
+            background-color:#24368c;
+            padding: 1.5rem;
+            color: white;
+            margin-top: 60%;
+            border-radius: 10%;
+        }
+    
+      .grid-coberturasbar {
+          grid-area: grid-coberturasbar;
+          background-color: #373737;
+          color: white;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+    
+        .grid-coberturasbar p{
+            align-items: flex-start;
+        }
+    
+        .grid-coberturasbar a{
+            align-items: flex-end;
+            background-color: #24368c;
+            color: white;
+            padding: 1rem;
+            border-radius: 10%;
+        }
+      
+      .grid-seccion {
+        grid-area: grid-seccion;
+        background-color: #373737;
+        color: white;
+        }
+    
+        .grid-seccion h2{
+            margin: 2rem;
+            margin-left: 10%;
+        }
+      
+      .grid-misionvisionvalores {  
+          display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 3%;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "M-V-V";
+        grid-area: grid-misionvisionvalores;
+        /* justify-items: center; */
+        align-items:stretch;
+      }
+      
+      .flex-container{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: space-around;
+          justify-content: center;
+          text-justify: auto;
+          margin: 2rem;
+          /* background-image: url(../Multimedia/family2.jpg);
+          background-position: bottom;
+            background-size: 70%;
+            background-repeat: no-repeat; */
+      }
+      
+      .flex-container div{
+        border: #24368c solid 3px;
+        border-radius: 5%;
+        padding: 2rem;
+      }
+    
+      .M-V-V {
+          display: flex;
+          grid-area: M-V-V;
+          justify-content: center;
+          align-items: center;
+        }
+/*       
+      .M-V-Vimg {
+          display: flex;
+          grid-area: M-V-Vimg;
+          
+          background-image: url(../Multimedia/family2.jpg);
+          background-position: center;
+            background-size: 200%;
+            background-repeat: no-repeat;
+            margin-right: 1.5rem;
+            
+            border-image: 1px solid;
+        } */
+    
+      
+      .grid-experiencias {
+          grid-area: grid-experiencias;
+            background-image: url(../Multimedia/family1.jpg);
+            background-color: rgb(70, 70, 70);
+            background-blend-mode: soft-light;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+    
+        .grid-experiencias p{
+            font-style: italic;
+            margin-top: 2rem;
+            color: white;
+        }
+    
+        .grid-experiencias h4{
+            font-weight: bold;
+            color: white;
+        }
+      
+      .grid-aseguradoras { 
+          grid-area: grid-aseguradoras;
+          color: #373737;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 2rem;
+        }
+      /* ACA LA IDEA ES PONER 1 SOLA IMAGEN Y QUE SE VAYAN DESLIZANDO PARA MOSTRAR TODAS */
+      .grid-aseguradorasimg {  
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 1%;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "aseguradorasImg1";
+          /* "aseguradorasImg1 aseguradorasImg2 aseguradorasImg3 aseguradorasImg4 aseguradorasImg5"; */
+        grid-area: grid-aseguradorasimg;
+        margin-right: 1rem;
+        margin-left: 1rem;
+      }
+      
+      .aseguradorasImg1 {
+          grid-area: aseguradorasImg1;
+          background-image: url(../Multimedia/Sancor.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      
+      .aseguradorasImg2 { 
+          grid-area: aseguradorasImg2;
+          background-image: url(../Multimedia/Mercantil.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      
+      .aseguradorasImg3 {
+          grid-area: aseguradorasImg3;
+          background-image: url(../Multimedia/Prevencion-salud.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      
+      .aseguradorasImg4 {
+          grid-area: aseguradorasImg4;
+          background-image: url(../Multimedia/Prevencion.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      
+      .aseguradorasImg5 {
+          grid-area: aseguradorasImg5;
+          background-image: url(../Multimedia/Seguros-Rivadavia.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+
+/* ---------------------------   NOSOTROS   ------------------------------ */
+.grid-containerNosotros {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.2fr 0.5fr 0.3fr 2.8fr 0.5fr 2.6fr 0.5fr 1fr 1.6fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "grid-barracontacto grid-barracontacto grid-barracontacto"
+      "grid-navbar grid-navbar grid-navbar"
+      "grid-seccion grid-seccion grid-seccion"
+      "grid-quienesomos grid-quienesomos grid-quienesomos"
+      "grid-masNuestrosServicios grid-masNuestrosServicios grid-masNuestrosServicios"
+      "grid-nuestroStaff grid-nuestroStaff grid-nuestroStaff"
+      "grid-clientes grid-clientes grid-clientes"
+      "grid-clientesimg grid-clientesimg grid-clientesimg"
+      "grid-footer grid-footer grid-footer"; 
+  }
+
+    .grid-quienesomos {
+        grid-area: grid-quienesomos;
+        }
+
+    
+    .grid-quienesomos h3{
+        margin: 3rem;
+    }
+    .nosotrosFlex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .item1_QuienesSomos{
+        height: auto;
+        width: 800px;
+        background-color: white;
+        border-left: #24368c solid 3px;
+        padding: 3rem;
+        margin: 1%;
+        border-radius: 5%;
+    }
+    .item2_QuienesSomos{
+        height: 350px;
+        width: 350px;
+        background-image: url(../Multimedia/delamano.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: #24368c solid 2px;
+        border-radius: 1%;
+    }
+
+    .grid-masNuestrosServicios {
+        grid-area: grid-masNuestrosServicios;
+        background-color: #373737;
+          color: white;
+          display: flex;
+          justify-content: space-around;
+          align-items: center; 
+    }
+
+    .grid-masNuestrosServicios p{
+        align-items: flex-start;
+    }
+
+    .grid-masNuestrosServicios a{
+        background-color:#24368c;
+        padding: 1.5rem;
+        color: white;
+        align-items: flex-end;
+        border-radius: 10%;
+    }
+
+    .grid-nuestroStaff {
+        grid-area: grid-nuestroStaff;
+        }
+        .grid-nuestroStaff h3{
+            margin: 3rem;
+        }
+
+        .nosotrosFlexStaff{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .item1_Staff{
+            height: 500px;
+            width: 500px;
+            background-image: url(../Multimedia/NuestroStaff.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: #24368c solid 2px;
+            border-radius: 5%;
+        }
+        .item2_Staff{
+            height: auto;
+            width: 500px;
+            background-color: white;
+            border-left: #24368c solid 3px;
+            padding: 3rem;
+            margin: 1%;
+            border-radius: 1%;
+            
+        }
+        
+    
+    .grid-seccion { grid-area: grid-seccion; }
+
+    
+
+    .grid-clientes {
+        grid-area: grid-clientes;
+        color: #373737;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 2rem; 
+    }
+
+    .clientesFlex{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+    }
+
+    .boxClientes{
+        height: 100px;
+        width: 200px;
+    }
+
+    .clienteImg1{
+        background-image: url(../Multimedia/Clientes/LaEspanola.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border: #24368c solid 2px; */
+        border-radius: 1%;
+    }
+    
+    .clienteImg2{
+        background-image: url(../Multimedia/Clientes/MB.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border: #24368c solid 2px; */
+        border-radius: 1%;
+    }
+
+    .clienteImg3{
+        background-image: url(../Multimedia/Clientes/Biasoni.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border: #24368c solid 2px; */
+        border-radius: 1%;
+    }
+
+    .clienteImg4{
+        background-image: url(../Multimedia/Clientes/Impero.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border: #24368c solid 2px; */
+        border-radius: 1%;
+    }
+    .grid-clientesimg {
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 0px 2%; 
+        grid-template-areas: 
+            "."; 
+        grid-area: grid-clientesimg; 
+}
+
+/* --------------------------- SINIESTROS ---------------------------- */
+
+.grid-formularioSiniestro {
+    grid-area: grid-formularioSiniestro;
+}
+.formularioSiniestroFlex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 2rem;
+    font-weight: bold;
+}
+
+
+/* ------------------   FOOTER   ---------------------- */
+
+      .grid-footer {  
+        /* display: flex; */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "acercade grid-mapadesitio contactenos seguinos";
+        grid-area: grid-footer;
+        background-color: #b6234b;
+        color: white;
+        align-items: flex-start;
+        justify-items: center;
+        font-size: 0.9rem;
+      }
+    
+      .grid-footer div{
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+        line-height: 1.5rem;
+        margin-top: 3rem;
+        
+        float: inline-start;
+      }
+    
+      .grid-footer h4{
+        font-weight: bolder;
+      }
+      
+      
+      .acercade { grid-area: acercade; }
+      
+      .contactenos {
+          grid-area: contactenos;
+        line-height: 2rem;
+        }
+      
+      .seguinos {
+          grid-area: seguinos;
+          
+        }
+    
+        .seguinos ul{
+            list-style: none;
+            font-size: 3rem;
+            
+        }
+        .seguinos a{
+            color: white;
+            text-decoration: none;
+        }
+      
+      .grid-mapadesitio {
+          grid-area: grid-mapadesitio;
+        }
+      .grid-mapadesitio a{
+        text-decoration: none;
+        color: white;
+      }
+ 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+
+    .grid-container {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 0.5fr 0.2fr 2.9fr 0.5fr 3fr 0.5fr 0.2fr 0.6fr 1.4fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "grid-barracontacto grid-barracontacto grid-barracontacto"
+          "grid-navbar grid-navbar grid-navbar"
+          "grid-seccion grid-seccion grid-seccion"
+          "grid-imgbox grid-imgbox grid-imgbox"
+          "grid-coberturasbar grid-coberturasbar grid-coberturasbar"
+          "grid-misionvisionvalores grid-misionvisionvalores grid-misionvisionvalores"
+          "grid-experiencias grid-experiencias grid-experiencias"
+          "grid-aseguradoras grid-aseguradoras grid-aseguradoras"
+          "grid-aseguradorasimg grid-aseguradorasimg grid-aseguradorasimg"
+          "grid-footer grid-footer grid-footer";
+      }
+
+      
+      /* ---------------------------NAVBAR---------------------------- */
+      .grid-barracontacto {  
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+        "."; 
+        grid-area: grid-barracontacto;
+        color: white;
+        background-color: #24368c;
+        justify-items: right;
+        align-items: center;
+        }
+    
+      .grid-barracontacto p{
+        margin-right: 15%;
+        }
+      
+      .grid-navbar {  
+        display: grid;
+        grid-template-columns: 0.5fr 1.5fr;
+        grid-template-rows: 1fr;
+        gap: 0px 2%;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "logoFM navbarFM";
+        grid-area: grid-navbar;
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+      
+      .logoFM {
+        display: flex;
+        grid-area: logoFM;
+        background-image: url(../Multimedia/Logo-horizontL-PNG.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+        }
+    
+        /* .logoFM a{
+            object-fit: cover;
+            place-items: center;
+        } */
+      
+      .grid-navbar .navbarFM {
+        display: grid;
+        grid-area: navbarFM;
+        align-items: center;
+        justify-items: right;
+        justify-content: right;
+        }
+    
+        .navbarFM ul{
+            list-style: none;
+            display: flex;
+            /* width: 40%;
+            height: 100%; */
+            justify-content: end;
+            /* align-items: flex-end; */
+            /* margin-right: 10%; */
+            padding: 2%;
+            margin: 2%;
+        }
+    
+        .navbarFM ul li{
+            padding-right: 2%;
+        }
+        
+        .navbarFM ul li a{
+            text-decoration: none;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: rgb(4, 17, 30);
+            display: block;
+            text-decoration: none;
+        }
+        
+        .navbarFM ul li a:hover{
+            color: #b6234b;
+        }
+        
+        .active{
+            color: #24368c;
+        }
+    
+    /* -------------------------- INDEX ----------------------------- */
+
+        .grid-imgbox {
+            display: flex;
+            height: auto; 
+            grid-area: grid-imgbox;
+            background-image: url(../Multimedia/Andrea\ manejando.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .grid-imgbox a{
+            position: absolute;
+            background-color:#24368c;
+            padding: 1.5rem;
+            color: white;
+            margin-top: 40%;
+            border-radius: 10%;
+        }
+    
+      .grid-coberturasbar {
+          grid-area: grid-coberturasbar;
+          background-color: #373737;
+          color: white;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+    
+        .grid-coberturasbar p{
+            align-items: flex-start;
+        }
+    
+        .grid-coberturasbar a{
+            align-items: flex-end;
+            background-color: #24368c;
+            color: white;
+            padding: 1rem;
+            border-radius: 10%;
+        }
+      
+      .grid-seccion {
+        grid-area: grid-seccion;
+        background-color: #373737;
+        color: white;
+        }
+    
+        .grid-seccion h2{
+            margin: 2rem;
+            margin-left: 10%;
+        }
+      
+      .grid-misionvisionvalores {  
+          display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 3%;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "M-V-V M-V-Vimg";
+        grid-area: grid-misionvisionvalores;
+        /* justify-items: center; */
+        align-items:stretch;
+      }
+      
+      .flex-container{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: space-around;
+          justify-content: center;
+          text-justify: auto;
+          margin: 2rem;
+          
+      }
+      
+      .flex-container div{
+        border: #24368c solid 3px;
+        border-radius: 5%;
+        padding: 2rem;
+      }
+    
+      .M-V-V {
+          grid-area: M-V-V;
+          justify-content: center;
+          align-items: center;
+        }
+      
+      .M-V-Vimg {
+          display: flex;
+          grid-area: M-V-Vimg;
+          
+          background-image: url(../Multimedia/family2.jpg);
+          background-position: center;
+            background-size: 200%;
+            background-repeat: no-repeat;
+            margin-right: 1.5rem;
+            
+            border-image: 1px solid;
+        }
+    
+      
+      .grid-experiencias {
+          grid-area: grid-experiencias;
+            background-image: url(../Multimedia/family1.jpg);
+            background-color: rgb(70, 70, 70);
+            background-blend-mode: soft-light;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+    
+        .grid-experiencias p{
+            font-style: italic;
+            margin-top: 2rem;
+            color: white;
+        }
+    
+        .grid-experiencias h4{
+            font-weight: bold;
+            color: white;
+        }
+      
+      .grid-aseguradoras { 
+          grid-area: grid-aseguradoras;
+          color: #373737;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 2rem;
+        }
+      
+      .grid-aseguradorasimg {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 1%;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "aseguradorasImg1 aseguradorasImg2 aseguradorasImg3 aseguradorasImg4 aseguradorasImg5";
+        grid-area: grid-aseguradorasimg;
+        margin-right: 1rem;
+        margin-left: 1rem;
+      }
+      
+      .aseguradorasImg1 {
+          grid-area: aseguradorasImg1;
+          background-image: url(../Multimedia/Sancor.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      
+      .aseguradorasImg2 { 
+          grid-area: aseguradorasImg2;
+          background-image: url(../Multimedia/Mercantil.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      
+      .aseguradorasImg3 {
+          grid-area: aseguradorasImg3;
+          background-image: url(../Multimedia/Prevencion-salud.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      
+      .aseguradorasImg4 {
+          grid-area: aseguradorasImg4;
+          background-image: url(../Multimedia/Prevencion.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      
+      .aseguradorasImg5 {
+          grid-area: aseguradorasImg5;
+          background-image: url(../Multimedia/Seguros-Rivadavia.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+
+/* ---------------------------   NOSOTROS   ------------------------------ */
+.grid-containerNosotros {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.2fr 0.5fr 0.3fr 2.8fr 0.5fr 3fr 0.5fr 0.8fr 1.4fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "grid-barracontacto grid-barracontacto grid-barracontacto"
+      "grid-navbar grid-navbar grid-navbar"
+      "grid-seccion grid-seccion grid-seccion"
+      "grid-quienesomos grid-quienesomos grid-quienesomos"
+      "grid-masNuestrosServicios grid-masNuestrosServicios grid-masNuestrosServicios"
+      "grid-nuestroStaff grid-nuestroStaff grid-nuestroStaff"
+      "grid-clientes grid-clientes grid-clientes"
+      "grid-clientesimg grid-clientesimg grid-clientesimg"
+      "grid-footer grid-footer grid-footer"; 
+  }
+
+    .grid-quienesomos {
+        grid-area: grid-quienesomos;
+        }
+
+    
+    .grid-quienesomos h3{
+        margin: 3rem;
+    }
+    .nosotrosFlex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .item1_QuienesSomos{
+        height: auto;
+        width: 800px;
+        background-color: white;
+        border-left: #24368c solid 3px;
+        padding: 3rem;
+        margin: 1%;
+        border-radius: 5%;
+    }
+    .item2_QuienesSomos{
+        height: 350px;
+        width: 350px;
+        background-image: url(../Multimedia/delamano.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: #24368c solid 2px;
+        border-radius: 1%;
+    }
+
+    .grid-masNuestrosServicios {
+        grid-area: grid-masNuestrosServicios;
+        background-color: #373737;
+          color: white;
+          display: flex;
+          justify-content: space-around;
+          align-items: center; 
+    }
+
+    .grid-masNuestrosServicios p{
+        align-items: flex-start;
+    }
+
+    .grid-masNuestrosServicios a{
+        background-color:#24368c;
+        padding: 1.5rem;
+        color: white;
+        align-items: flex-end;
+        border-radius: 10%;
+    }
+
+    .grid-nuestroStaff {
+        grid-area: grid-nuestroStaff;
+        }
+        .grid-nuestroStaff h3{
+            margin: 3rem;
+        }
+
+        .nosotrosFlexStaff{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .item1_Staff{
+            height: 500px;
+            width: 500px;
+            background-image: url(../Multimedia/NuestroStaff.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: #24368c solid 2px;
+            border-radius: 5%;
+        }
+        .item2_Staff{
+            height: auto;
+            width: 500px;
+            background-color: white;
+            border-left: #24368c solid 3px;
+            padding: 3rem;
+            margin: 1%;
+            border-radius: 1%;
+            
+        }
+        
+    
+    .grid-seccion { grid-area: grid-seccion; }
+
+    
+
+    .grid-clientes {
+        grid-area: grid-clientes;
+        color: #373737;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 2rem; 
+    }
+
+    .clientesFlex{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+    }
+
+    .boxClientes{
+        height: 100px;
+        width: 200px;
+    }
+
+    .clienteImg1{
+        background-image: url(../Multimedia/Clientes/LaEspanola.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border: #24368c solid 2px; */
+        border-radius: 1%;
+    }
+    
+    .clienteImg2{
+        background-image: url(../Multimedia/Clientes/MB.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border: #24368c solid 2px; */
+        border-radius: 1%;
+    }
+
+    .clienteImg3{
+        background-image: url(../Multimedia/Clientes/Biasoni.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border: #24368c solid 2px; */
+        border-radius: 1%;
+    }
+
+    .clienteImg4{
+        background-image: url(../Multimedia/Clientes/Impero.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border: #24368c solid 2px; */
+        border-radius: 1%;
+    }
+    .grid-clientesimg {
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 0px 2%; 
+        grid-template-areas: 
+            "."; 
+        grid-area: grid-clientesimg; 
+}
+
+/* --------------------------- SINIESTROS ---------------------------- */
+
+.grid-formularioSiniestro {
+    grid-area: grid-formularioSiniestro;
+}
+.formularioSiniestroFlex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 2rem;
+    font-weight: bold;
+}
+
+        
+/* ------------------   FOOTER   ---------------------- */        
+      .grid-footer {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "acercade grid-mapadesitio contactenos seguinos";
+        grid-area: grid-footer;
+        background-color: #b6234b;
+        color: white;
+        align-items: flex-start;
+        justify-items: center;
+        font-size: 0.9rem;
+      }
+    
+      .grid-footer div{
+        margin: 5%;
+        line-height: 1.5rem;
+        margin-top: 3rem;
+      }
+    
+      .grid-footer h4{
+        font-weight: bolder;
+      }
+      
+      
+      .acercade { grid-area: acercade; }
+      
+      .contactenos {
+          grid-area: contactenos;
+        line-height: 2rem;
+        }
+      
+      .seguinos {
+          grid-area: seguinos;
+          
+        }
+    
+        .seguinos ul{
+            list-style: none;
+            font-size: 3rem;
+            
+        }
+        .seguinos a{
+            color: white;
+            text-decoration: none;
+        }
+      
+      .grid-mapadesitio {
+          grid-area: grid-mapadesitio;
+        }
+      .grid-mapadesitio a{
+        text-decoration: none;
+        color: white;
+      }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+    .grid-container {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 0.5fr 0.2fr 2.9fr 0.5fr 3fr 0.5fr 0.2fr 0.6fr 1.4fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "grid-barracontacto grid-barracontacto grid-barracontacto"
+          "grid-navbar grid-navbar grid-navbar"
+          "grid-seccion grid-seccion grid-seccion"
+          "grid-imgbox grid-imgbox grid-imgbox"
+          "grid-coberturasbar grid-coberturasbar grid-coberturasbar"
+          "grid-misionvisionvalores grid-misionvisionvalores grid-misionvisionvalores"
+          "grid-experiencias grid-experiencias grid-experiencias"
+          "grid-aseguradoras grid-aseguradoras grid-aseguradoras"
+          "grid-aseguradorasimg grid-aseguradorasimg grid-aseguradorasimg"
+          "grid-footer grid-footer grid-footer";
+      }
+
+/* ---------------------------NAVBAR---------------------------- */
+
+      .grid-barracontacto {  
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+        "."; 
+        grid-area: grid-barracontacto;
+        color: white;
+        background-color: #24368c;
+        justify-items: right;
+        align-items: center;
+        }
+    
+      .grid-barracontacto p{
+        margin-right: 15%;
+        
+        }
+      
+      .grid-navbar {  
+        display: grid;
+        grid-template-columns: 0.5fr 1.5fr;
+        grid-template-rows: 1fr;
+        gap: 0px 2%;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "logoFM navbarFM";
+        grid-area: grid-navbar;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      
+      .logoFM {
+        display: flex;
+        grid-area: logoFM;
+        background-image: url(../Multimedia/Logo-horizontL-PNG.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+        }
+    
+        /* .logoFM a{
+            object-fit: cover;
+            place-items: center;
+        } */
+      
+      .grid-navbar .navbarFM {
+        display: grid;
+        grid-area: navbarFM;
+        align-items: center;
+        justify-items: right;
+        justify-content: right;
+        }
+    
+        .navbarFM ul{
+            list-style: none;
+            display: flex;
+            /* width: 40%;
+            height: 100%; */
+            justify-content: end;
+            /* align-items: flex-end; */
+            /* margin-right: 10%; */
+            padding: 2%;
+            margin: 2%;
+        }
+    
+        .navbarFM ul li{
+            padding-right: 2%;
+        }
+        
+        .navbarFM ul li a{
+            text-decoration: none;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: rgb(4, 17, 30);
+            display: block;
+            text-decoration: none;
+        }
+        
+        .navbarFM ul li a:hover{
+            color: #b6234b;
+        }
+        
+        .active{
+            color: #24368c;
+        }
+    
+ /* -------------------------- INDEX ----------------------------- */   
+
+        .grid-imgbox {
+            display: flex;
+            height: 100vh; 
+            grid-area: grid-imgbox;
+            background-image: url(../Multimedia/Andrea\ manejando.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .grid-imgbox a{
+            position: absolute;
+            background-color:#24368c;
+            padding: 1.5rem;
+            color: white;
+            margin-top: 20%;
+            border-radius: 10%;
+        }
+    
+      .grid-coberturasbar {
+          grid-area: grid-coberturasbar;
+          background-color: #373737;
+          color: white;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+    
+        .grid-coberturasbar p{
+            align-items: flex-start;
+        }
+    
+        .grid-coberturasbar a{
+            align-items: flex-end;
+            background-color: #24368c;
+            color: white;
+            padding: 1rem;
+            border-radius: 10%;
+        }
+      
+      .grid-seccion {
+        grid-area: grid-seccion;
+        background-color: #373737;
+        color: white;
+        }
+    
+        .grid-seccion h2{
+            margin: 2rem;
+            margin-left: 10%;
+        }
+      
+      .grid-misionvisionvalores {  
+          display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 3%;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "M-V-V M-V-Vimg";
+        grid-area: grid-misionvisionvalores;
+        /* justify-items: center; */
+        align-items:stretch;
+      }
+      
+      .flex-container{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: space-around;
+          justify-content: center;
+          text-justify: auto;
+          margin: 2rem;
+          
+      }
+      
+      .flex-container div{
+        border: #24368c solid 3px;
+        border-radius: 5%;
+        padding: 2rem;
+      }
+    
+      .M-V-V {
+          grid-area: M-V-V;
+          justify-content: center;
+          
+        }
+      
+      .M-V-Vimg {
+          height: auto;
+          width: auto;
+          grid-area: M-V-Vimg;
+          border: #b6234b solid;
+          background-image: url(../Multimedia/family2.jpg);
+          background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 5%;
+        }
+    
+      
+      .grid-experiencias {
+          grid-area: grid-experiencias;
+            background-image: url(../Multimedia/family1.jpg);
+            background-color: rgb(70, 70, 70);
+            background-blend-mode: soft-light;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+    
+        .grid-experiencias p{
+            font-style: italic;
+            margin-top: 2rem;
+            color: white;
+        }
+    
+        .grid-experiencias h4{
+            font-weight: bold;
+            color: white;
+        }
+      
+      .grid-aseguradoras { 
+          grid-area: grid-aseguradoras;
+          color: #373737;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 2rem;
+        }
+      
+      .grid-aseguradorasimg {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 2%;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". aseguradorasImg1 aseguradorasImg2 aseguradorasImg3 aseguradorasImg4 aseguradorasImg5 .";
+        grid-area: grid-aseguradorasimg;
+      }
+      
+      .aseguradorasImg1 {
+          grid-area: aseguradorasImg1;
+          background-image: url(../Multimedia/Sancor.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      
+      .aseguradorasImg2 { 
+          grid-area: aseguradorasImg2;
+          background-image: url(../Multimedia/Mercantil.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      
+      .aseguradorasImg3 {
+          grid-area: aseguradorasImg3;
+          background-image: url(../Multimedia/Prevencion-salud.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      
+      .aseguradorasImg4 {
+          grid-area: aseguradorasImg4;
+          background-image: url(../Multimedia/Prevencion.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      
+      .aseguradorasImg5 {
+          grid-area: aseguradorasImg5;
+          background-image: url(../Multimedia/Seguros-Rivadavia.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+
+/* ---------------------------   NOSOTROS   ------------------------------ */
+.grid-containerNosotros {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.2fr 0.5fr 0.3fr 2.8fr 0.5fr 3fr 0.5fr 0.8fr 1.4fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "grid-barracontacto grid-barracontacto grid-barracontacto"
+      "grid-navbar grid-navbar grid-navbar"
+      "grid-seccion grid-seccion grid-seccion"
+      "grid-quienesomos grid-quienesomos grid-quienesomos"
+      "grid-masNuestrosServicios grid-masNuestrosServicios grid-masNuestrosServicios"
+      "grid-nuestroStaff grid-nuestroStaff grid-nuestroStaff"
+      "grid-clientes grid-clientes grid-clientes"
+      "grid-clientesimg grid-clientesimg grid-clientesimg"
+      "grid-footer grid-footer grid-footer"; 
+  }
+
+    .grid-quienesomos {
+        grid-area: grid-quienesomos;
+        }
+
+    
+    .grid-quienesomos h3{
+        margin: 3rem;
+    }
+    .nosotrosFlex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .item1_QuienesSomos{
+        height: auto;
+        width: 800px;
+        background-color: white;
+        border-left: #24368c solid 3px;
+        padding: 3rem;
+        margin: 1%;
+        border-radius: 5%;
+    }
+    .item2_QuienesSomos{
+        height: 350px;
+        width: 350px;
+        background-image: url(../Multimedia/delamano.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: #24368c solid 2px;
+        border-radius: 1%;
+    }
+
+    .grid-masNuestrosServicios {
+        grid-area: grid-masNuestrosServicios;
+        background-color: #373737;
+          color: white;
+          display: flex;
+          justify-content: space-around;
+          align-items: center; 
+    }
+
+    .grid-masNuestrosServicios p{
+        align-items: flex-start;
+    }
+
+    .grid-masNuestrosServicios a{
+        background-color:#24368c;
+        padding: 1.5rem;
+        color: white;
+        align-items: flex-end;
+        border-radius: 10%;
+    }
+
+    .grid-nuestroStaff {
+        grid-area: grid-nuestroStaff;
+        }
+        .grid-nuestroStaff h3{
+            margin: 3rem;
+        }
+
+        .nosotrosFlexStaff{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .item1_Staff{
+            height: 500px;
+            width: 500px;
+            background-image: url(../Multimedia/NuestroStaff.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: #24368c solid 2px;
+            border-radius: 5%;
+        }
+        .item2_Staff{
+            height: auto;
+            width: 500px;
+            background-color: white;
+            border-left: #24368c solid 3px;
+            padding: 3rem;
+            margin: 1%;
+            border-radius: 1%;
+            
+        }
+        
+    
+    .grid-seccion { grid-area: grid-seccion; }
+
+    
+
+    .grid-clientes {
+        grid-area: grid-clientes;
+        color: #373737;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 2rem; 
+    }
+
+    .clientesFlex{
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+    }
+
+    .boxClientes{
+        height: 100px;
+        width: 200px;
+    }
+
+    .clienteImg1{
+        background-image: url(../Multimedia/Clientes/LaEspanola.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border: #24368c solid 2px; */
+        border-radius: 1%;
+    }
+    
+    .clienteImg2{
+        background-image: url(../Multimedia/Clientes/MB.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border: #24368c solid 2px; */
+        border-radius: 1%;
+    }
+
+    .clienteImg3{
+        background-image: url(../Multimedia/Clientes/Biasoni.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border: #24368c solid 2px; */
+        border-radius: 1%;
+    }
+
+    .clienteImg4{
+        background-image: url(../Multimedia/Clientes/Impero.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border: #24368c solid 2px; */
+        border-radius: 1%;
+    }
+    .grid-clientesimg {
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 0px 2%; 
+        grid-template-areas: 
+            "."; 
+        grid-area: grid-clientesimg; 
+}
+/* --------------------------- SINIESTROS ---------------------------- */
+
+.grid-formularioSiniestro {
+    grid-area: grid-formularioSiniestro;
+}
+.formularioSiniestroFlex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 2rem;
+    font-weight: bold;
+}
+
+/* ---------------------------   FOOTER   ------------------------------ */ 
+
+      .grid-footer {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "acercade grid-mapadesitio contactenos seguinos";
+        grid-area: grid-footer;
+        background-color: #b6234b;
+        color: white;
+        align-items: flex-start;
+        justify-items: center;
+        
+      }
+    
+      .grid-footer div{
+        margin: 5%;
+        line-height: 1.5rem;
+        margin-top: 3rem;
+      }
+    
+      .grid-footer h4{
+        font-weight: bolder;
+      }
+      
+      
+      .acercade { grid-area: acercade; }
+      
+      .contactenos {
+          grid-area: contactenos;
+        line-height: 2rem;
+        }
+      
+      .seguinos {
+          grid-area: seguinos;
+          
+        }
+    
+        .seguinos ul{
+            list-style: none;
+            font-size: 3rem;
+            
+        }
+        .seguinos a{
+            color: white;
+            text-decoration: none;
+        }
+      
+      .grid-mapadesitio {
+          grid-area: grid-mapadesitio;
+        }
+      .grid-mapadesitio a{
+        text-decoration: none;
+        color: white;
+      }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
