@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="../Multimedia/Simbolo LOGO.png">
     <link rel="stylesheet" href="../CSS/estilos.css">
     <script src="https://kit.fontawesome.com/11325fcdef.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="grid-containerNosotros">
@@ -16,7 +17,7 @@
         </div>
 
         <div class="grid-navbar">
-          <div class="logoFM"></div>
+          <div class="logoFM" data-aos="zoom-in" data-aos-duration="2200"></div>
           <div class="navbarFM">
             <ul>
                 <li><a href="../index.html">Home</a></li>
@@ -33,7 +34,7 @@
         </div>
         <div class="grid-quienesomos">
             <h3>Quienes somos</h3>
-            <section class="nosotrosFlex">
+            <section class="nosotrosFlex" data-aos="fade-down" data-aos-duration="1500">
                 <div class="item1_QuienesSomos item1">
                     <p>Nuestras actividades en seguros comienzan en el año 1988, dedicándonos al asesoramiento y comercialización, mediante la constante capacitación y adaptación a los diferentes contextos. Buscando así soluciones adaptadas a las necesidades de cada uno de los riesgos de nuestros clientes, sea individual o empresa. Consideramos que el capital más importante que poseemos es nuestro equipo de trabajo, sustentado en valores como el compromiso, la ética y el profesionalismo. Buscamos diferenciarnos, apuntando al target de clientes que ven al seguro como una inversión en prevención y protección de su vida y patrimonio.
                     <br><br>
@@ -52,8 +53,8 @@
         <div class="grid-nuestroStaff">
             <h3>Nuestro Staff</h3>
             <div class="nosotrosFlexStaff">
-                <div class="item1_Staff"></div>
-                <div class="item2_Staff">
+                <div class="item1_Staff" data-aos="fade-right"></div>
+                <div class="item2_Staff" data-aos="fade-left">
                     <p>Monica Medei <br>
                     monica@fallabrinomedei.com.ar <br>
                     
@@ -72,10 +73,10 @@
 
         <div class="grid-clientesimg">
             <div class="clientesFlex">
-                <div class="boxClientes clienteImg1"></div>
-                <div class="boxClientes clienteImg2"></div>
-                <div class="boxClientes clienteImg3"></div>
-                <div class="boxClientes clienteImg4"></div>
+                <div class="boxClientes clienteImg1" data-aos="flip-left"></div>
+                <div class="boxClientes clienteImg2" data-aos="flip-left"></div>
+                <div class="boxClientes clienteImg3" data-aos="flip-right"></div>
+                <div class="boxClientes clienteImg4" data-aos="flip-right"></div>
             </div>
         </div>
         <div class="grid-footer">
@@ -112,6 +113,11 @@
               </ul>
             </div>
       </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
 

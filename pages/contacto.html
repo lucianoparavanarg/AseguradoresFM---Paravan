@@ -8,9 +8,88 @@
     <link rel="shortcut icon" href="../Multimedia/Simbolo LOGO.png">
     <link rel="stylesheet" href="../CSS/estilos.css">
     <script src="https://kit.fontawesome.com/11325fcdef.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <div class="grid-containerContacto">
+        <div class="grid-barracontacto">
+            <p> <i class="fa-solid fa-phone"></i>  0342 480-1842  | <i class="fa-brands fa-whatsapp"></i>  0342 5497369 | <i class="fa-regular fa-envelope"></i>  info@fallabrinomedei.com.ar </p>
+        </div>
+        <div class="grid-navbar">
+          <div class="logoFM" data-aos="zoom-in" data-aos-duration="2200"></div>
+          <div class="navbarFM">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/nosotros.html" class="active">Nosotros</a></li>
+                <li><a href="../pages/servicios.html">Servicios</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+                <li><a href="../pages/siniestros.html">Siniestros</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="grid-seccion">
+            <h2>Contacto</h2>
+        </div>
+
+        <div class="grid-contactoMapa" data-aos="zoom-out" id="mapaContacto">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.540272782042!2d-60.76655758484565!3d-31.67379508131903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a88104de2439%3A0x461a8f020fd883ea!2sHernandarias%202031%2C%20S3016%20Santo%20Tom%C3%A9%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1649050012562!5m2!1ses!2sar" width="1600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="grid-contactoFormulario">
+            <div>
+                <h4>Estamos en contacto</h4>
+                <p>Ante cualquier consulta estamos a su disposición.</p>
+                <br>    
+                <p>Complete el formulario o comuníquese con Fallabrino Medei a través que cualquiera de nuestros canales disponibles.</p>
+            </div>
+            <br>
+            <h4>Contáctenos</h4>
+            <form>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"><br>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido"><br>
+                <input type="text" name="email" id="email" placeholder="Ingrese su email"><br>
+                <input type="text" name="telefono" id="telefono" placeholder="Ingrese su telefono"><br>
+                <textarea name="mensaje" id="mensaje" placeholder="Ingrese su mensaje" cols="30" rows="10"></textarea>
+            </form>
+        </div>
+
+        <div class="grid-footer">
+            <div class="acercade">
+                <h4>Acerca de</h4>
+                <p>Grupo de productores asesores de seguros dedicados íntegramente a la atención del asegurado y gestión de siniestros. Te ofrecemos asesoramiento personalizado, reduciendo costos y adaptando la cobertura a tus necesidades</p>
+            </div>
+  
+            <div class="grid-mapadesitio">
+              <h4>Mapa de Sitio</h4>
+              <ul>
+                  <li><a href="#" class="active">Home</a></li>
+                  <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                  <li><a href="./pages/servicios.html">Servicios</a></li>
+                  <li><a href="./pages/contacto.html">Contacto</a></li>
+                  <li><a href="./pages/siniestros.html">Siniestros</a></li>
+              </ul>
+            </div>
+            
+            <div class="contactenos">
+              <h4>Contactenos</h4>
+              <p> Dirección: Hernandarias 2031, Santo Tomé <br>
+              Teléfono: 0342 480-1842 <br>
+              Email: info@fallabrinomedei.com.ar <br>
+              Horarios: Lun - Vie 8:30 hs. - 13 hs. / 17 hs. - 19:30 hs. <br>
+              </p>
+            </div>
+  
+            <div class="seguinos">
+              <h4>Seguinos</h4>
+              <ul>
+                  <li><a href="https://www.facebook.com/fallabrinomedei" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
+                  <li><a href="https://www.instagram.com/fallabrinomedei/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+            </div>
+        
+      </div>
+    <!-- <header>
         <img src="../Multimedia/Logo-horizontL-PNG.png" alt="logohorizontalFM" id="LogoHeader">
         <nav id="menu">
             <ul>
@@ -51,6 +130,11 @@
             <li><a href="https://www.facebook.com/fallabrinomedei" target="_blank">facebook</a></li>
             <li><a href="https://www.instagram.com/fallabrinomedei/" target="_blank">instagram</a></li>
         </ul>
-    </footer>
+    </footer> -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
