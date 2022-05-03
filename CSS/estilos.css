@@ -1,288 +1,31 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 
-.
+
 /* ------------------- GENERAL ------------------ */
 
-/* body{
-    background-color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 2px;
-    position: relative;
-    min-height: 100vh;
-}
 
-.header1{
-    width: 100%;
-    height: 30px;
-    background-color: #24368c;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-
-.header1 p{
-    color: white;
-    font-size: 0.9rem;
-    margin-right: 100px;
-}
-
-nav{
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-}
-
-nav div{
-    width: 20%;
-    height: 100%;
-}
-
-nav div img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-nav ul{
-    list-style: none;
-    display: flex;
-    width: 40%;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li a{
-    text-decoration: none;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: rgb(4, 17, 30);
-    display: block;
-    text-decoration: none;
-}
-
-nav ul li a:hover{
-    color: #b6234b;
-}
-
-.active{
-    color: #24368c;
-}
-
-.titlePage{
-    width: 100%;
-    height: 50px;
-    background-color: #000000;
-    color: white;
-}
-
-.titlePage h2{
-    text-align: center;
-}
-
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10px;
-    font-weight: bold;
-}
-/* ------------------ INDEX ------------------- */
-
-/* .sectionOne{
-    width: 100%;
-    height: 100vh;
-}
-
-.sectionOne img{
-    width: 100%;
-    height: 100%;
-    opacity: 0.9;
-    object-fit: cover;
-    display: block;
-}
-
-.sectionOne div a{
-    position: absolute;
-    background-color:#24368c;
-    padding: 1.5rem;
-    top: 20%;
-    left: 45%;
-    color: aliceblue;
-}
-
-.sectionTwo{
-    width: 100%;
-    height: 30vh;
-}
-
-.sectionThree{
-    width: 100%;
-    height: 100vh;
-}
-
-#contactateYa{
-    display: block;
-    float: right;
-    margin-right: 80px;
-    padding: 10px 10px 10px 10px;
-    background-color: aliceblue;
-    text-align: center center;
-}
-
-
-#cotizaAqui{
-    position: absolute;
-    margin-top: 350px;
-    margin-left: 45%;
-    background-color: aliceblue;
-    padding: 10px 10px 10px 10px;
-}
-
-#imgPortadaHome{
-    width: 100%;
-    max-width: 100%;
-    max-height: 800px;
-    background-size: cover;
-}
-
-#mapaContacto{
-    position: static;
-    width: 100%;
-}
-
-.flexCenterComentarios{
-    display: block;
-    justify-content: center;
-    font-size: 15px;
-    font-style: italic;   
-}
-
-#fondoComentarios{
-    width: 100%;
-    height: 200px;
-    background-image: url(./Multimedia/family2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-}
-
-#sizeLogosAseguradoras{
-    width: 20px;
-    height: 20px;
-    margin-top: 20px;
-    margin-left: 50px;
-    display: inline-block;
-}
-
-.footer{
-    background-color: #b6234b;
-    color: white;
-    text-align: center;
-    width: 100%;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-
-}
-
-#menuFooter{
-    background-color: #b6234b;
-    padding-right: 80px;
-    margin-top: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-#menuFooter ul{
-    list-style: square;
-    margin: 0;
-    padding: 0;
-}
-
-#menuFooter ul li{
-    display: block
-}
-
-#menuFooter ul li a{
-    color: white;
-    display: block;
-    padding: 0px;
-    text-decoration: none;
-}
-
-#menuFooter ul li a:hover{
-    color: #000000;
-} */
-/* .grid-containerServicios {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 0.2fr 0.5fr 0.3fr 2.8fr 1.4fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    "grid-barracontacto grid-barracontacto grid-barracontacto"
-    "grid-navbar grid-navbar grid-navbar"
-    "grid-seccion grid-seccion grid-seccion"
-    "grid-servicios grid-servicios grid-servicios"
-    "grid-footer grid-footer grid-footer"; 
-} */
-
-/* .grid-containerSiniestros {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 0.2fr 0.5fr 0.3fr 4.6fr 0.1fr 1.6fr 0.5fr 0.8fr 1.4fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "grid-barracontacto grid-barracontacto grid-barracontacto"
-      "grid-navbar grid-navbar grid-navbar"
-      "grid-seccion grid-seccion grid-seccion"
-      "grid-formularioSiniestro grid-formularioSiniestro grid-formularioSiniestro"
-      ". . ."
-      ". . ."
-      ". . ."
-      ". . ."
-      "grid-footer grid-footer grid-footer"; 
-  } */
-
-
-/* // Large devices (desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) { */
-
-
-    /* .grid-container {  display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 0.2fr 0.5fr 0.2fr 2.9fr 0.5fr 3fr 0.5fr 0.2fr 0.6fr 1.4fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "grid-barracontacto grid-barracontacto grid-barracontacto"
-          "grid-navbar grid-navbar grid-navbar"
-          "grid-seccion grid-seccion grid-seccion"
-          "grid-imgbox grid-imgbox grid-imgbox"
-          "grid-coberturasbar grid-coberturasbar grid-coberturasbar"
-          "grid-misionvisionvalores grid-misionvisionvalores grid-misionvisionvalores"
-          "grid-experiencias grid-experiencias grid-experiencias"
-          "grid-aseguradoras grid-aseguradoras grid-aseguradoras"
-          "grid-aseguradorasimg grid-aseguradorasimg grid-aseguradorasimg"
-          "grid-footer grid-footer grid-footer";
-      } */
 
 /* ---------------------------NAVBAR---------------------------- */
 
+
+.enLineaNavbar{
+    list-style-type: none;
+}
+
+.enLineaNavbar li{
+    margin-left: 20px;
+}
 #navbarFM{
     padding: 5px;
 }
 
 #logoFM{
-    width: 40%;
+    width: 300px;
 }
 
 #navbarContacto{
@@ -291,7 +34,11 @@ h2{
 }
 
 #navbarContacto i{
-    padding: 0.5rem;
+    padding: 0;
+}
+
+#collapsibleNavbar{
+    justify-content: flex-end;
 }
 
 /* --------------------------- SECCIÓN ---------------------------- */
@@ -342,88 +89,10 @@ h2{
 }
 
 
-        .grid-imgbox {
-            display: flex;
-            height: 100vh; 
-            grid-area: grid-imgbox;
-            background-image: url(../Multimedia/Andrea\ manejando.jpg);
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            justify-content: center;
-            align-items: center;
-        }
+        
     
-        .grid-imgbox a{
-            position: absolute;
-            background-color:#24368c;
-            padding: 1.5rem;
-            color: white;
-            margin-top: 20%;
-            border-radius: 10%;
-        }
-    
-      .grid-coberturasbar {
-          grid-area: grid-coberturasbar;
-          background-color: #373737;
-          color: white;
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-        }
-    
-        .grid-coberturasbar p{
-            align-items: flex-start;
-        }
-    
-        .grid-coberturasbar a{
-            align-items: flex-end;
-            background-color: #24368c;
-            color: white;
-            padding: 1rem;
-            border-radius: 10%;
-        }
-      
-      .grid-seccion {
-        grid-area: grid-seccion;
-        background-color: #373737;
-        color: white;
-        }
-    
-        .grid-seccion h2{
-            margin: 2rem;
-            margin-left: 10%;
-        }
-      
-      .grid-misionvisionvalores {  
-          display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 0px 3%;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "M-V-V M-V-Vimg";
-        grid-area: grid-misionvisionvalores;
-        /* justify-items: center; */
-        align-items:stretch;
-      }
-      
-      .flex-container{
-          display: flex;
-          flex-direction: column;
-          flex-wrap: wrap;
-          align-content: space-around;
-          justify-content: center;
-          text-justify: auto;
-          margin: 2rem;
-          
-      }
-      
-      .flex-container div{
-        border: #24368c solid 3px;
-        border-radius: 5%;
-        padding: 2rem;
-      }
+        
+
     
       .M-V-V {
           grid-area: M-V-V;
@@ -444,43 +113,10 @@ h2{
             padding: 1.5rem;
             border-radius: 5%;
         }
+
+
     
-      
-      .grid-experiencias {
-          grid-area: grid-experiencias;
-            background-image: url(../Multimedia/family1.jpg);
-            background-color: rgb(70, 70, 70);
-            background-blend-mode: soft-light;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            
-        }
-    
-        .grid-experiencias p{
-            font-style: italic;
-            margin-top: 2rem;
-            color: white;
-        }
-    
-        .grid-experiencias h4{
-            font-weight: bold;
-            color: white;
-        }
-      
-      .grid-aseguradoras { 
-          grid-area: grid-aseguradoras;
-          color: #373737;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-top: 2rem;
-        }
-      
+
       .grid-aseguradorasimg {  
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -698,17 +334,27 @@ h2{
             "."; 
         grid-area: grid-clientesimg; 
 }
+
+/* --------------------------- CONTACTO ---------------------------- */
+
+#mapaContacto{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 70vh;
+}
+
 /* --------------------------- SINIESTROS ---------------------------- */
 
 
 input{
-  transition: all 1s;
+    transition: all 1s;
 }
 
 input:focus{
-  font-size: 24px;
-  border: 3px solid #b6234b;
-  color: #24368c;
+    font-size: 24px;
+    border: 3px solid #b6234b;
+    color: #24368c;
 }
 
 
