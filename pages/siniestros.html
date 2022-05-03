@@ -6,120 +6,205 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siniestros</title>
     <link rel="shortcut icon" href="../Multimedia/Simbolo LOGO.png">
-    <link rel="stylesheet" href="../CSS/estilos.css">
+    
     <script src="https://kit.fontawesome.com/11325fcdef.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../CSS/estilos.css">
+
 </head>
+
 <body>
-    <div class="grid-containerSiniestros">
-        <div class="grid-barracontacto">
-            <p> <i class="fa-solid fa-phone"></i>  0342 480-1842  | <i class="fa-brands fa-whatsapp"></i>  0342 5497369 | <i class="fa-regular fa-envelope"></i>  info@fallabrinomedei.com.ar </p>
+    <div style="background-color:#24368c;">
+        <div class="container d-flex justify-content-end text-white" id="navbarContacto" >
+            <i class="fa-solid fa-phone"></i>  0342 480-1842  | <i class="fa-brands fa-whatsapp"></i>  0342 5497369 | <i class="fa-regular fa-envelope"></i>  info@fallabrinomedei.com.ar
         </div>
-        <div class="grid-navbar">
-          <div class="logoFM" data-aos="zoom-in" data-aos-duration="2200"></div>
-          <div class="navbarFM">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/nosotros.html" class="active">Nosotros</a></li>
-                <li><a href="../pages/servicios.html">Servicios</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-                <li><a href="../pages/siniestros.html">Siniestros</a></li>
-            </ul>
-          </div>
-        </div>
+    </div>
 
-        <div class="grid-seccion">
-            <h2>Siniestros</h2>
-        </div>
-
-        <div class="grid-formularioSiniestro">
-            <div class="formularioSiniestroFlex">
-                <label for="Cliente">Nombre del cliente</label>
-                <input type="text" name="Cliente" id="Cliente">
-                <br>
-                <br>
-                <label for="MensajeSiniestro">Comentanos acerca del siniestro</label><br>
-                <textarea name="MensajeSiniestro" id="MensajeSiniestro" cols="30" rows="10"></textarea>
-                <br><br>
-                <label for="ImgSiniestro">Adjunta fotos del siniestro</label>
-                <input type="file" name="ImgSiniestro" id="ImgSiniestro">
-                <br><br>
-                <p>Gracias por enviar su siniestro, a la brevedad nos estaremos comunicando con usted.</p>
-            </div>
-        </div>
-        
-        <div class="grid-footer">
-            <div class="acercade">
-                <h4>Acerca de</h4>
-                <p>Grupo de productores asesores de seguros dedicados íntegramente a la atención del asegurado y gestión de siniestros. Te ofrecemos asesoramiento personalizado, reduciendo costos y adaptando la cobertura a tus necesidades</p>
-            </div>
-  
-            <div class="grid-mapadesitio">
-              <h4>Mapa de Sitio</h4>
-              <ul>
-                  <li><a href="#" class="active">Home</a></li>
-                  <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                  <li><a href="./pages/servicios.html">Servicios</a></li>
-                  <li><a href="./pages/contacto.html">Contacto</a></li>
-                  <li><a href="./pages/siniestros.html">Siniestros</a></li>
-              </ul>
-            </div>
+    <div class="container shadow-sm">
+        <nav class="navbar navbar-expand-sm text-dark bg-white navbar-white justify-content-between" id="navbarFM">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">
+                <img src="../Multimedia/Logo-horizontL-PNG.png" id="logoFM" alt="logo" data-aos="zoom-in" data-aos-duration="2200">
+            </a>
             
-            <div class="contactenos">
-              <h4>Contactenos</h4>
-              <p> Dirección: Hernandarias 2031, Santo Tomé <br>
-              Teléfono: 0342 480-1842 <br>
-              Email: info@fallabrinomedei.com.ar <br>
-              Horarios: Lun - Vie 8:30 hs. - 13 hs. / 17 hs. - 19:30 hs. <br>
-              </p>
-            </div>
-  
-            <div class="seguinos">
-              <h4>Seguinos</h4>
-              <ul>
-                  <li><a href="https://www.facebook.com/fallabrinomedei" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
-                  <li><a href="https://www.instagram.com/fallabrinomedei/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-              </ul>
-            </div>
-      </div>
-    <!-- <header>
-        <img src="../Multimedia/Logo-horizontL-PNG.png" alt="logohorizontalFM" id="sizeLogo">
-        <nav id="menu">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="siniestros.html" class="active">Siniestros</a></li>
+            <!-- Links -->
+            <ul class="navbar-nav text-dark">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/siniestros.html">Siniestros</a>
+            </li>
             </ul>
         </nav>
+    </div>
+
+    <div style="background-color: #373737;">
+        <div class="container-fluid text-white" id="seccion">
+            <h2>Siniestros</h2>
+        </div>
+    </div>
+
+    <main class="container">
+        <section id="siniestros" class="my-5">
+
+            <div class="row shadow-lg py-5 rounded-5">
+
+                <div class="col-12 col-lg-8">
+
+                    <h3 class="fw-bold display-5 text-sm-center text-md-center text-lg-start mb-3">
+                        Complete el siguiente formulario.
+                    </h3>
+
+                    <form action="" class="row">
+
+                        <div class="mb-3 col-12">
+                            <label for="nombreyApellido" class="form-label">Nombre y Apellido</label>
+                            <input type="text" class="form-control" id="nombreyApellido">
+                        </div>
+
+                        <div class="mb-3 col-12">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">    
+                        </div>
+
+                        <div class="mb-3 col-12">
+                            <label for="telefono" class="form-label">Nombre y Apellido</label>
+                            <input type="number" class="form-control" id="telefono">
+                        </div>
+
+                        <div class="mb-3 col-12">
+                            <label for="horaSiniestro" class="form-label">Hora del siniestro</label>
+                            <input type="text" class="form-control" id="horaSiniestro">
+                            
+                        </div>
+
+                        <div class="mb-3 col-12">
+                            <label for="provincia" class="form-label">Provincia</label>
+                            <select name="provincias" class="custom-select">
+                                <option selected></option>
+                                <option value="buenos aires">Buenos Aires</option>
+                                <option value="caba">Ciudad Autónoma de Buenos Aires</option>
+                                <option value="catamarca">Catamarca</option>
+                                <option value="chaco">Chaco</option>
+                                <option value="chubut">Chubut</option>
+                                <option value="cordoba">Córdoba</option>
+                                <option value="corrientes">Corrientes</option>
+                                <option value="entre rios">Entre Ríos</option>
+                                <option value="formosa">Formosa</option>
+                                <option value="jujuy">Jujuy</option>
+                                <option value="la pampa">La Pampa</option>
+                                <option value="la rioja">La Rioja</option>
+                                <option value="mendoza">Mendoza</option>
+                                <option value="misiones">Misiones</option>
+                                <option value="neuquen">Neuquén</option>
+                                <option value="rio negro">Río Negro</option>
+                                <option value="salta">Salta</option>
+                                <option value="san juan">San Juan</option>
+                                <option value="san luis">San Luis</option>
+                                <option value="santa cruz">Santa Cruz</option>
+                                <option value="santa fe">Santa Fe</option>
+                                <option value="santiago del estero">Santiago del Estero</option>
+                                <option value="tierra del fuego, antartida e islas del atlantico sur">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                                <option value="tucuman">Tucumán</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3 col-12">
+                            <label for="localidad" class="form-label">Localidad</label>
+                            <input type="text" class="form-control" id="localidad">
+                            
+                        </div>
+                        
+                        <div class="mb-3 col-12">
+                            <div class="form-group"></div>
+                                <label for="MensajeSiniestro">Comentenos acerca del siniestro</label><br>
+                                <textarea name="MensajeSiniestro" class="form-control col-12 mb-3" id="MensajeSiniestro" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 col-12">
+                            <div class="custom-file">
+                                <label class="custom-file-label"for="ImgSiniestro">Adjunta fotos del siniestro</label>
+                                <input type="file" class="custom-file-input col-12" id="ImgSiniestro">
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3 col-12">
+                            
+                            <input type="submit" name="" id="" class="btn btn-primary btn-block" value="Enviar">
+                            
+                        </div>
+                    
+                        <div class="col-12">
+                            <p>Gracias por enviar su siniestro, a la brevedad nos estaremos comunicando con usted.</p>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+                
+            
         
+        <div class="justify-content-center footerFM" style="background-color:#b6234b;">
+            <div class="row">
+                <div class="col col-lg-3 col-sm-12">
+                    <h4>Acerca de</h4>
+                    <p>Grupo de productores asesores de seguros dedicados íntegramente a la atención del asegurado y gestión de siniestros. Te ofrecemos asesoramiento personalizado, reduciendo costos y adaptando la cobertura a tus necesidades</p>
+                </div>
+    
+                <div class="col col-lg-3 col-sm-12">
+                <h4>Mapa de Sitio</h4>
+                    <div class="list-group list-group-flush">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                            <li><a href="./pages/servicios.html">Servicios</a></li>
+                            <li><a href="./pages/contacto.html">Contacto</a></li>
+                            <li><a href="./pages/siniestros.html" class="active">Siniestros</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col col-lg-3 col-sm-12">
+                    <h4>Contactenos</h4>
+                    <p> Dirección: Hernandarias 2031, Santo Tomé <br>
+                    Teléfono: 0342 480-1842 <br>
+                    Email: info@fallabrinomedei.com.ar <br>
+                    Horarios: Lun - Vie 8:30 hs. - 13 hs. / 17 hs. - 19:30 hs. <br>
+                    </p>
+                </div>
+    
+                <div class="col col-lg-3 col-sm-12 seguinos">
+                    <h4>Seguinos</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/fallabrinomedei" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.instagram.com/fallabrinomedei/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-    </header>
-    <h2>Siniestros</h2>
-    <div class="margenIzquierdo">
-        <label for="Cliente">Nombre del cliente</label>
-        <input type="text" name="Cliente" id="Cliente">
-        <br>
-        <br>
-        <label for="MensajeSiniestro">Comentanos acerca del siniestro</label><br>
-        <textarea name="MensajeSiniestro" id="MensajeSiniestro" cols="30" rows="10"></textarea>
-        <br><br>
-        <label for="ImgSiniestro">Adjunta fotos del siniestro</label>
-        <input type="file" name="ImgSiniestro" id="ImgSiniestro"> -->
+        
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 
-
-    </div>
-    <div>
-
-    </div>
-
-    <!-- <footer class="footer">
-        <ul>
-            <li><a href="https://www.facebook.com/fallabrinomedei" target="_blank">facebook</a></li>
-            <li><a href="https://www.instagram.com/fallabrinomedei/" target="_blank">instagram</a></li>
-        </ul>
-    </footer> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
