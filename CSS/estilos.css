@@ -89,84 +89,6 @@
 }
 
 
-        
-    
-        
-
-    
-      .M-V-V {
-          grid-area: M-V-V;
-          justify-content: center;
-          
-        }
-      
-      .M-V-Vimg {
-          height: auto;
-          width: auto;
-          grid-area: M-V-Vimg;
-          border: #b6234b solid;
-          background-image: url(../Multimedia/family2.jpg);
-          background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            margin: 1.5rem;
-            padding: 1.5rem;
-            border-radius: 5%;
-        }
-
-
-    
-
-      .grid-aseguradorasimg {  
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 0px 2%;
-        grid-auto-flow: row;
-        grid-template-areas:
-          ". aseguradorasImg1 aseguradorasImg2 aseguradorasImg3 aseguradorasImg4 aseguradorasImg5 .";
-        grid-area: grid-aseguradorasimg;
-      }
-      
-      .aseguradorasImg1 {
-          grid-area: aseguradorasImg1;
-          background-image: url(../Multimedia/Sancor.png);
-          background-position: center;
-          background-size: contain;
-          background-repeat: no-repeat;
-        }
-      
-      .aseguradorasImg2 { 
-          grid-area: aseguradorasImg2;
-          background-image: url(../Multimedia/Mercantil.png);
-          background-position: center;
-          background-size: contain;
-          background-repeat: no-repeat;
-        }
-      
-      .aseguradorasImg3 {
-          grid-area: aseguradorasImg3;
-          background-image: url(../Multimedia/Prevencion-salud.png);
-          background-position: center;
-          background-size: contain;
-          background-repeat: no-repeat;
-        }
-      
-      .aseguradorasImg4 {
-          grid-area: aseguradorasImg4;
-          background-image: url(../Multimedia/Prevencion.png);
-          background-position: center;
-          background-size: contain;
-          background-repeat: no-repeat;
-        }
-      
-      .aseguradorasImg5 {
-          grid-area: aseguradorasImg5;
-          background-image: url(../Multimedia/Seguros-Rivadavia.png);
-          background-position: center;
-          background-size: contain;
-          background-repeat: no-repeat;
-        }
 
 /* ---------------------------   NOSOTROS   ------------------------------ */
 
@@ -264,76 +186,9 @@
         }
         
     
-    .grid-seccion { grid-area: grid-seccion; }
 
-    
 
-    .grid-clientes {
-        grid-area: grid-clientes;
-        color: #373737;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-top: 2rem; 
-    }
 
-    .clientesFlex{
-        display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-    }
-
-    .boxClientes{
-        height: 100px;
-        width: 200px;
-    }
-
-    .clienteImg1{
-        background-image: url(../Multimedia/Clientes/LaEspanola.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        /* border: #24368c solid 2px; */
-        border-radius: 1%;
-    }
-    
-    .clienteImg2{
-        background-image: url(../Multimedia/Clientes/MB.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        /* border: #24368c solid 2px; */
-        border-radius: 1%;
-    }
-
-    .clienteImg3{
-        background-image: url(../Multimedia/Clientes/Biasoni.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        /* border: #24368c solid 2px; */
-        border-radius: 1%;
-    }
-
-    .clienteImg4{
-        background-image: url(../Multimedia/Clientes/Impero.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        /* border: #24368c solid 2px; */
-        border-radius: 1%;
-    }
-    .grid-clientesimg {
-        display: grid; 
-        grid-template-columns: 1fr; 
-        grid-template-rows: 1fr; 
-        gap: 0px 2%; 
-        grid-template-areas: 
-            "."; 
-        grid-area: grid-clientesimg; 
-}
 
 /* --------------------------- CONTACTO ---------------------------- */
 
@@ -356,6 +211,15 @@ input:focus{
     border: 3px solid #b6234b;
     color: #24368c;
 }
+
+/* --------------------------- SERVICIOS ---------------------------- */
+
+.card{
+    border-top: #24368c solid 3px;
+    border-bottom:#b6234b solid 3px;
+    border-radius: 3%;
+}
+
 
 
 
