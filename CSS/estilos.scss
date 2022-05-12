@@ -14,6 +14,15 @@ $color4:#ededed;
 .margenDerecho{
     margin-right: 0px;
 }
+#azul{
+    color: $color1;
+}
+#rojo{
+    color: $color2;
+}
+#negro{
+    color: $color3;
+}
 
 #fondoOscuro{
     background-color: $color3;
@@ -39,6 +48,11 @@ $color4:#ededed;
 
 #navbarFM{
     padding: 5px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 #logoFM{
@@ -82,27 +96,37 @@ $color4:#ededed;
     border: $color3;
 }
 
-// @mixin rectangulo {
-//     background-color: $color3;
-//     opacity: .5;
-//     width: 400px;
-//     height: 200px;
-//     text-align: center;
-//     color: $color4;
-// }
+@for $in from 1 through 3 {
 
-// .rectangulo1{
-//     @include rectangulo()
-//     border-bottom: $color1 solid 2px;
-// }
-
-.rectangulo2{
-    border-bottom: $color2 solid 2px;
+    #bucle-#{$in} {
+        // border-color: $color2;
+        border-bottom: solid 4px;
+        border-color: lighten($base-color, $in * 15%);
+    }
 }
 
-.rectangulo3{
-    border-bottom: $color4 solid 2px;
+$redes: (
+    red1: rgb(232, 102, 16),
+    red2: #24368c,
+    red3: rgb(235, 235, 34),
+    );
+
+@each $red, $font in $redes  {
+    .box--#{$red}{
+        background-color: rgb(55, 55, 55, 0.5);
+        // height: 100px;
+        // width: 75%;
+        border-bottom: 3px solid $font;
+        text-align: center;
+        font-size: 30px;
+        color:#ededed;
+        text-transform: uppercase;
+        border-radius: 2px;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
 
 
 .containerFlexImg{
@@ -134,7 +158,34 @@ $color4:#ededed;
 #deLaMano{
     height: 200px;
     width: 200px;
+    background-image: url(../multimedia/delamano.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: $color1 solid 3px;
+    margin-bottom: 3px;
 }
+
+// @mixin rectangulo {
+//     background-color: $color3;
+//     opacity: .5;
+//     width: 400px;
+//     height: 200px;
+//     text-align: center;
+//     color: $color4;
+// }
+
+// .rectangulo1{
+//     @include rectangulo()
+    
+// }
+// .rectangulo2{
+//     border-bottom: $color2 solid 2px;
+// }
+
+// .rectangulo3{
+//     border-bottom: $color4 solid 2px;
+// }
 
 .clientesBox{
     width: 200px;
@@ -148,14 +199,7 @@ $color4:#ededed;
 $base-color: #24368c;  
 // $base-color: #24368c;
 
-@for $in from 1 through 3 {
 
-    #bucle-#{$in} {
-        // border-color: $color2;
-        border-bottom: solid 4px;
-        border-color: lighten($base-color, $in * 15%);
-    }
-}
 /* --------------------------- CONTACTO ---------------------------- */
 
 #mapaContacto{
@@ -192,7 +236,11 @@ input:focus{
 /* ---------------------------   FOOTER   ------------------------------ */ 
 
 .footerFM{
-    background-color: $color2;
+    background-image: url(../multimedia/fondos/fondo-footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: $color2;
     color: white;
     a{
         color: white;
