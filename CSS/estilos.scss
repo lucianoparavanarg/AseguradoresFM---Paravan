@@ -8,6 +8,7 @@
 $color1:#24368c;
 $color2:#b6234b;
 $color3:#373737;
+$color4:#ededed;
 
 /* ------------------- GENERAL ------------------ */
 .margenDerecho{
@@ -81,6 +82,29 @@ $color3:#373737;
     border: $color3;
 }
 
+// @mixin rectangulo {
+//     background-color: $color3;
+//     opacity: .5;
+//     width: 400px;
+//     height: 200px;
+//     text-align: center;
+//     color: $color4;
+// }
+
+// .rectangulo1{
+//     @include rectangulo()
+//     border-bottom: $color1 solid 2px;
+// }
+
+.rectangulo2{
+    border-bottom: $color2 solid 2px;
+}
+
+.rectangulo3{
+    border-bottom: $color4 solid 2px;
+}
+
+
 .containerFlexImg{
     height: 80%;
     width: 80%;
@@ -112,6 +136,26 @@ $color3:#373737;
     width: 200px;
 }
 
+.clientesBox{
+    width: 200px;
+    transition: box-shadow .3s;
+    background-color: $color4;
+}
+.clientesBox:hover{
+    box-shadow: 0px 10px 10px $color3;
+}
+
+$base-color: #24368c;  
+// $base-color: #24368c;
+
+@for $in from 1 through 3 {
+
+    #bucle-#{$in} {
+        // border-color: $color2;
+        border-bottom: solid 4px;
+        border-color: lighten($base-color, $in * 15%);
+    }
+}
 /* --------------------------- CONTACTO ---------------------------- */
 
 #mapaContacto{
@@ -122,6 +166,8 @@ $color3:#373737;
 }
 
 /* --------------------------- SINIESTROS ---------------------------- */
+
+
 
 input{
     transition: all 1s;
@@ -140,6 +186,8 @@ input:focus{
     border-bottom: $color2 solid 3px;
     border-radius: 3%;
 }
+
+
 
 /* ---------------------------   FOOTER   ------------------------------ */ 
 

@@ -72,6 +72,14 @@
   border: #373737;
 }
 
+.rectangulo2 {
+  border-bottom: #b6234b solid 2px;
+}
+
+.rectangulo3 {
+  border-bottom: #ededed solid 2px;
+}
+
 .containerFlexImg {
   height: 80%;
   width: 80%;
@@ -99,6 +107,31 @@
 #deLaMano {
   height: 200px;
   width: 200px;
+}
+
+.clientesBox {
+  width: 200px;
+  transition: box-shadow 0.3s;
+  background-color: #ededed;
+}
+
+.clientesBox:hover {
+  box-shadow: 0px 10px 10px #373737;
+}
+
+#bucle-1 {
+  border-bottom: solid 4px;
+  border-color: #344dc9;
+}
+
+#bucle-2 {
+  border-bottom: solid 4px;
+  border-color: #6f82da;
+}
+
+#bucle-3 {
+  border-bottom: solid 4px;
+  border-color: #acb7ea;
 }
 
 /* --------------------------- CONTACTO ---------------------------- */
