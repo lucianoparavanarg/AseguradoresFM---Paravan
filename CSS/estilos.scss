@@ -119,7 +119,7 @@ $redes: (
 
 @each $red, $font in $redes  {
     .box--#{$red}{
-        background-color: rgb(55, 55, 55, 0.5);
+        background-color:rgba(55, 55, 55, 0.37);
         // height: 100px;
         // width: 75%;
         border-bottom: 3px solid $font;
@@ -206,41 +206,29 @@ $redes: (
 }
 
 /* ---------------------------   NOSOTROS   ------------------------------ */
+
 #deLaMano{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-image: url(../multimedia/delamano.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     border-bottom: $color1 solid 3px;
-    margin-bottom: 3px;
+}
+
+.boxStaffImg{
+    width: 450px;
+    height: 350px;
+    background-image: url(../multimedia/nuestro-staff.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #saberMas{
     font-size: 2rem;
 }
-
-// @mixin rectangulo {
-//     background-color: $color3;
-//     opacity: .5;
-//     width: 400px;
-//     height: 200px;
-//     text-align: center;
-//     color: $color4;
-// }
-
-// .rectangulo1{
-//     @include rectangulo()
-
-// }
-// .rectangulo2{
-//     border-bottom: $color2 solid 2px;
-// }
-
-// .rectangulo3{
-//     border-bottom: $color4 solid 2px;
-// }
 
 .clientesBox{
     width: 200px;
