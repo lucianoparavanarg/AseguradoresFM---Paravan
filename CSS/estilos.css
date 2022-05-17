@@ -35,6 +35,10 @@
   background-color: #24368c;
 }
 
+#bordeAzul {
+  border-bottom: #24368c solid 0.6rem;
+}
+
 /* ---------------------------NAVBAR---------------------------- */
 .enLineaNavbar {
   list-style-type: none;
@@ -141,11 +145,15 @@
 }
 
 .containerFlexImg {
-  height: 80%;
-  width: 80%;
-  padding: 1rem;
+  height: 400px;
+  width: 400px;
+  padding: 4rem;
   border: #b6234b solid 2px;
-  border-radius: 20%;
+  border-radius: 5%;
+  background-image: url(../multimedia/family2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .estiloMVV {
@@ -163,6 +171,66 @@
   color: white;
 }
 
+.boxAseguradora1 {
+  width: 160px;
+  height: 150px;
+  padding: 1rem;
+  border-bottom: #24368c solid 2px;
+  justify-content: center;
+  background-image: url(../multimedia/aseguradoras/sancor-jpg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.boxAseguradora2 {
+  width: 160px;
+  height: 150px;
+  padding: 1rem;
+  border-bottom: #24368c solid 2px;
+  justify-content: center;
+  background-image: url(../multimedia/aseguradoras/mercantil-andina-jpg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.boxAseguradora3 {
+  width: 160px;
+  height: 150px;
+  padding: 1rem;
+  border-bottom: #24368c solid 2px;
+  justify-content: center;
+  background-image: url(../multimedia/aseguradoras/prevencion-salud-jpg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.boxAseguradora4 {
+  width: 160px;
+  height: 150px;
+  padding: 1rem;
+  border-bottom: #24368c solid 2px;
+  justify-content: center;
+  background-image: url(../multimedia/aseguradoras/prevencion-trabajo-jpg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.boxAseguradora5 {
+  width: 160px;
+  height: 150px;
+  padding: 1rem;
+  border-bottom: #24368c solid 2px;
+  justify-content: center;
+  background-image: url(../multimedia/aseguradoras/seguros-rivadavia-jpg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 /* ---------------------------   NOSOTROS   ------------------------------ */
 #deLaMano {
   height: 200px;
@@ -173,6 +241,10 @@
   background-size: contain;
   border-bottom: #24368c solid 3px;
   margin-bottom: 3px;
+}
+
+#saberMas {
+  font-size: 2rem;
 }
 
 .clientesBox {
