@@ -43,6 +43,10 @@ $color4:#ededed;
 .bordeAzul{
     border-bottom: $color1 solid 0.6rem;
 }
+
+.font4{
+    font-size: 4rem;
+}
 /* ---------------------------NAVBAR---------------------------- */
 
 
@@ -78,6 +82,14 @@ $color4:#ededed;
 
 #collapsibleNavbar{
     justify-content: flex-end;
+}
+
+#active{
+    color: $color2;
+    border-bottom: 3px solid $color2;
+    width: 100%;
+    border-radius: 1px;
+    transition: 0.5s ease;
 }
 
 /* --------------------------- SECCIÓN ---------------------------- */
@@ -289,10 +301,12 @@ input:focus{
     background-size: cover;
     // background-color: $color2;
     color: white;
+    li{
+        list-style: none;
+    }
     a{
         color: white;
         text-decoration: none;
-        list-style-type: none;
     }
     div{
         padding: 1.5rem;

@@ -81,6 +81,15 @@
           justify-content: flex-end;
 }
 
+.active {
+  color: #b6234b;
+  border-bottom: 3px solid #b6234b;
+  width: 100%;
+  border-radius: 1px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
 /* --------------------------- SECCIÓN ---------------------------- */
 #seccion {
   padding: 1rem;
@@ -336,10 +345,13 @@ input:focus {
   color: white;
 }
 
+.footerFM li {
+  list-style: none;
+}
+
 .footerFM a {
   color: white;
   text-decoration: none;
-  list-style-type: none;
 }
 
 .footerFM div {
